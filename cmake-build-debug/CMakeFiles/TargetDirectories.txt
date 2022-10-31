@@ -1,0 +1,3 @@
+/home/xueyq/CLionProjects/sqlite3_demo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/xueyq/CLionProjects/sqlite3_demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/xueyq/CLionProjects/sqlite3_demo/cmake-build-debug/CMakeFiles/sqlite3_demo.dir
