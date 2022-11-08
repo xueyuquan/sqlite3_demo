@@ -1,8 +1,10 @@
 //
-// Created by xueyq on 10/31/22.
+// Created by xueyq on 11/7/22.
 //
-#include "do_insert.h"
-int do_insert(sqlite3 * db){
+
+#include "do_delete.h"
+
+int do_delete(sqlite3 * db){
     int id;
     char name[32] = {};
     int score;

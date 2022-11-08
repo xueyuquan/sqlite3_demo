@@ -90,6 +90,12 @@ build CMakeFiles/sqlite3_demo.dir/do_insert.cpp.o: CXX_COMPILER__sqlite3_demo_De
   OBJECT_DIR = CMakeFiles/sqlite3_demo.dir
   OBJECT_FILE_DIR = CMakeFiles/sqlite3_demo.dir
 
+build CMakeFiles/sqlite3_demo.dir/do_delete.cpp.o: CXX_COMPILER__sqlite3_demo_Debug /home/xueyq/CLionProjects/sqlite3_demo/do_delete.cpp || cmake_object_order_depends_target_sqlite3_demo
+  DEP_FILE = CMakeFiles/sqlite3_demo.dir/do_delete.cpp.o.d
+  FLAGS = -pthread -g -l sqlite3 -std=gnu++11
+  OBJECT_DIR = CMakeFiles/sqlite3_demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/sqlite3_demo.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target sqlite3_demo
@@ -98,7 +104,7 @@ build CMakeFiles/sqlite3_demo.dir/do_insert.cpp.o: CXX_COMPILER__sqlite3_demo_De
 #############################################
 # Link the executable sqlite3_demo
 
-build sqlite3_demo: CXX_EXECUTABLE_LINKER__sqlite3_demo_Debug CMakeFiles/sqlite3_demo.dir/main.cpp.o CMakeFiles/sqlite3_demo.dir/sqlite3.c.o CMakeFiles/sqlite3_demo.dir/do_insert.cpp.o
+build sqlite3_demo: CXX_EXECUTABLE_LINKER__sqlite3_demo_Debug CMakeFiles/sqlite3_demo.dir/main.cpp.o CMakeFiles/sqlite3_demo.dir/sqlite3.c.o CMakeFiles/sqlite3_demo.dir/do_insert.cpp.o CMakeFiles/sqlite3_demo.dir/do_delete.cpp.o
   FLAGS = -pthread -g
   LINK_LIBRARIES = -ldl
   OBJECT_DIR = CMakeFiles/sqlite3_demo.dir

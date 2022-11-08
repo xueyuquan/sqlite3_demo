@@ -25,6 +25,7 @@ int main() {
         cout << "******************************************" << endl;
         cout << "1:insert 2:delete 3:query 4:update 5:quit." << endl;
         cout << "******************************************" << endl;
+        cout << "Input cmd:" << endl;
         scanf("%d", &cmd);
         switch (cmd) {
             case 1:
